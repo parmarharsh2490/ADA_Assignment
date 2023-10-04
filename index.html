@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Catch the Insect</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="screen">
+        <h1>Catch the insect</h1>
+        <button id="start_btn" class="btn">Play Game</button>
+    </div>
+    <div class="screen">
+        <h1>What is your "favorite" insect?</h1>
+        <ul class="insects_list">
+            <li>
+                <button class="choose_insect_btn">
+                    <p>Fly</p>
+                    <img
+                         src="Image/fly.png"
+                         alt="fly"
+                         />
+                </button>
+            </li>
+            <li>
+                <button class="choose_insect_btn">
+                    <p>Mosquito</p>
+                    <img
+                         src="Image/mosquito.png"
+                         alt="mosquito"
+                         />
+                </button>
+            </li>
+            <li>
+                <button class="choose_insect_btn">
+                    <p>Spider</p>
+                    <img
+                         src="Image/spider.png"
+                         alt="spider"
+                         />
+                </button>
+            </li>
+            <li>
+                <button class="choose_insect_btn">
+                    <p>Cockroach</p>
+                    <img
+                         src="Image/cockroach.png"
+                         alt="Cockroach"
+                         />
+                </button>
+            </li>
+            <li>
+                <button class="choose_insect_btn">
+                    <p>Bee</p>
+                    <img
+                         src="Image/bee.png"
+                         alt="bee"
+                         />
+                </button>
+            </li>
+            <li>
+                <button class="choose_insect_btn">
+                    <p>Butter Fly</p>
+                    <img
+                         src="Image/butter-fly.png"
+                         alt="Butter-fly"
+                         />
+                </button>
+            </li>
+        </ul>
+    </div>
+    <div class="screen game_container">
+        <h3 id="time">Time: 01:00</h3>
+        <h3 id="score">Score: 0</h3>
+    </div>
+    <div id="result" class="screen">
+        <h4>Your Score is : <br> <span id="scoree"></span></h4>
+        <h3>Click here to restart game <br> <button id="restart">Restart</button> </h3>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
